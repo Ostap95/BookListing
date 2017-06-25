@@ -94,10 +94,14 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
     @Override
     public void onLoadFinished(Loader<List<Book>> loader, List<Book> data) {
-        infoMessage.setVisibility(View.GONE);
-        adapter.clear();
-        adapter.addAll(data);
-        adapter.notifyDataSetChanged();
+        if (data.isEmpty()) {
+            infoMessage.setText(getResources().getString(R.string.no_data));
+        } else {
+            infoMessage.setVisibility(View.GONE);
+            adapter.clear();
+            adapter.addAll(data);
+            adapter.notifyDataSetChanged();
+        }
     }
 
     @Override

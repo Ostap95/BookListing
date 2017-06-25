@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">BookListing</string>
+    <string name="initial_main_message">Use the search button to begin</string>
+    <string name="google_books_api_query">https://www.googleapis.com/books/v1/volumes?q=</string>
+    <string name="no_connection">Please check you Internet connection</string>
 </resources>

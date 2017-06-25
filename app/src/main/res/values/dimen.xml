@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="list_view_item_weight">72dp</dimen>
+    <dimen name="book_item_text_left_margin">16dp</dimen>
+    <dimen name="book_item_text_right_margin">16dp</dimen>
+    <dimen name="list_view_padding_top">8dp</dimen>
+    <dimen name="list_view_padding_bottom">8dp</dimen>
+    <dimen name="list_item_title_text_size">16sp</dimen>
+    <dimen name="list_item_author_text_size">14sp</dimen>
+    <dimen name="main_layout_info_message">16sp</dimen>
+    <dimen name="list_item_text_top_padding">20dp</dimen>
+    <dimen name="list_item_text_bottom_padding">20dp</dimen>
+
+</resources>
